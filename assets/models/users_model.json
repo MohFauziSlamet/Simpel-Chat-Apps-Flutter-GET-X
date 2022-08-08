@@ -1,0 +1,27 @@
+{
+    "uid": "",
+    "name": "",
+    "keyName": "S",
+    "email": "",
+    "photoURL": "",
+    "status": "'",
+    "creationTime":"",
+    "lastSignInTime":"",
+    "updatedAt": "",
+    "chats" : [
+        {
+            "connection" : "fauzi$gmail.com",
+            "chat_id" : "dhjahfkjgljgugj67687ughlji",
+            "lastTime" : "dhjahfkjgljgugj67687ughlji",
+            "total_unread" : 0
+        },
+        {
+            "connection" : "fauzi$gmail.com",
+            "chat_id" : "dhjahfkjgljgugj67687ughlji",
+            "lastTime" : "dhjahfkjgljgugj67687ughlji",
+            "total_unread" : 0
+
+
+        }
+    ]
+}

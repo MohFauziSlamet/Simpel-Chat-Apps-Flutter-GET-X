@@ -1,0 +1,24 @@
+{
+    "connection": [
+        "fauzi@gmail.com",
+        "slamet@gmail.com"
+    ],
+    "chat" : [
+        {
+            "pengirim":"fauzi@gmail.com",
+            "penerima":"slamet@gmail.com",
+            "pesan":"halo",
+            "time" : "09.00",
+            "isRead" : true
+        },
+        {
+            "pengirim":"slamet@gmail.com",
+            "penerima":"fauzi@gmail.com",
+            "pesan":"halo juga",
+            "time" : "09.01",
+            "isRead" : false
+        }
+    ]
+    
+
+}

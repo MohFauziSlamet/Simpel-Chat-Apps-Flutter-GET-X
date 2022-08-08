@@ -1,0 +1,11 @@
+{
+   "nama" : "Xiaomi Redmi Note 10S",
+   "ram" : 8, 
+   "rom" : 128, 
+   "batrai" : 5000, 
+   "camera" : 64, 
+   "harga" : 2.889, 
+   "imageUrl-1" : "https://....", 
+   "imageUrl-2" : "https://....", 
+   "imageUrl-3" : "https://...." 
+}
