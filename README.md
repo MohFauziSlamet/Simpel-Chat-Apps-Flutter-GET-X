@@ -14,3 +14,14 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+Detail Apps :
+- Aplikasi chat ini dibangun dengan menggunakan FLutter dan State Management GET-X.
+- Database menggunakan Firebase.
+- Fitur upload foto profile.
+- Fitur search dengan name pada akun email secara global.
+
+- DEMO 
+
+![demo](https://user-images.githubusercontent.com/68117514/183385073-d2b3ef6d-8fec-4da6-b6ae-76c38f1ba7c1.gif)
+
