@@ -110,7 +110,7 @@ class ChatRoomView extends GetView<ChatRoomController> {
                 ),
                 const SizedBox(width: 3),
                 CircleAvatar(
-                  radius: Get.width * 0.15 * 0.25,
+                  radius: Get.width * 0.14 * 0.25,
                   backgroundColor: Colors.grey[300],
                   child: StreamBuilder<DocumentSnapshot<Object?>>(
                     stream:
@@ -142,17 +142,17 @@ class ChatRoomView extends GetView<ChatRoomController> {
                             borderRadius: BorderRadius.circular(50),
                             child: Image.network(
                               data['photoURL'],
-                              fit: BoxFit.cover,
+                              fit: BoxFit.fill,
                             ),
                           );
                         }
                       }
                       // jika kondisi selain aktif
                       return ClipRRect(
-                        borderRadius: BorderRadius.circular(50),
+                        // borderRadius: BorderRadius.circular(50),
                         child: Image.asset(
                           'assets/logo/person.png',
-                          fit: BoxFit.cover,
+                          fit: BoxFit.contain,
                         ),
                       );
                     },
@@ -162,7 +162,7 @@ class ChatRoomView extends GetView<ChatRoomController> {
             ),
           ),
         ),
-        leadingWidth: Get.width * 0.15,
+        leadingWidth: Get.width * 0.17,
       ),
       body: WillPopScope(
         // function untuk menutup tampilan emoji dengan menggunakan tombol back pada android
